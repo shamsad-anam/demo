@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+ul > li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
